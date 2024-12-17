@@ -87,7 +87,7 @@ class UserResource extends Resource
                     }
                     // Toggle nilai isActive
                     $record->update([
-                        'isActive' => !$record->isActive, // Men-toggle nilai isActive
+                        'isActive' => !$record->isActive, // Men-toggle/switch nilai isActive
                     ]);
                 })
             ])
